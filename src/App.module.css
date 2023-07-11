@@ -1,0 +1,10 @@
+.title {
+    font-size: 18px;
+}
+.title p {
+    color: blue;
+}
+
+.table span{
+    display: inline-block;
+}

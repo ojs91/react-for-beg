@@ -1,0 +1,33 @@
+.movie-wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.movie-area{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.movie-title{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.movie-thumbnail{
+  margin-bottom: 20px;
+}
+.movie-genre-list{
+  margin-bottom: 20px;
+}
+.movie-details{
+  color: #000;
+  font-weight: 700;
+  font-size: 26px;
+  transition: all .3s ease;
+  line-height: 32px;
+}
+.movie-details:hover{
+  transform: scale(1.1);
+  color: blue;
+}
